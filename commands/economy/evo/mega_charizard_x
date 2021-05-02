@@ -1,0 +1,10 @@
+module.exports = {
+    commands: ['charizard_mega_x'],
+    maxArgs: 1,
+    callback: (message, arguments, text) => {
+        message.channel.send('https://thumbs.gfycat.com/BleakAliveGilamonster-size_restricted.gif')
+      .then((msg) => {
+          setTimeout(function() {
+            msg.edit(`https://media4.giphy.com/media/qafw8JQ6C8sMg/giphy.gif`);
+          }, 2000)});
+    }}
